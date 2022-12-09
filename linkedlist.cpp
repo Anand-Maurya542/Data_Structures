@@ -26,7 +26,7 @@ class Node{
 //inserting value at beginning
 void insertAtHead(Node* &head,int d){
     //create new node
-    Node* temp=new Node(d);
+    Node* temp=new  Node(d);
     temp->next=head;
     head=temp;
 }
